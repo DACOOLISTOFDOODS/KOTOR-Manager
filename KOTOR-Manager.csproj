@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>KOTOR_Manager</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+	  <PublishSingleFile>true</PublishSingleFile>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <Resource Include="Assets\Diavlo_BOLD_II_37.otf" />
+  </ItemGroup>
+
+</Project>
