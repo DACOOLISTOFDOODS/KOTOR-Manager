@@ -7,7 +7,13 @@
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
 	  <PublishSingleFile>true</PublishSingleFile>
+	  <ApplicationIcon>Assets\logo.ico</ApplicationIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="Assets\logo.png" />
+	<Content Include="logo.ico" />
+  </ItemGroup>
 
   <ItemGroup>
     <Resource Include="Assets\Diavlo_BOLD_II_37.otf" />
