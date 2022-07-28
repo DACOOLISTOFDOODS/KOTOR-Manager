@@ -9,9 +9,9 @@
 	  <PublishSingleFile>true</PublishSingleFile>
   </PropertyGroup>
 
-
   <ItemGroup>
     <Resource Include="Assets\Diavlo_BOLD_II_37.otf" />
+    <Resource Include="Assets\tab.png" />
   </ItemGroup>
 
 </Project>

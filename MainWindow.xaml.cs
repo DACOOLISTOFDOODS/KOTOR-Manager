@@ -28,21 +28,26 @@ namespace KOTOR_Manager
 
         private void MainLoaded(object sender, RoutedEventArgs e)
         {
-            Home.Background = (Brush)new BrushConverter().ConvertFrom("#1A1A1A");
-            Home.Foreground = (Brush)new BrushConverter().ConvertFrom("#F9F9F9");
-            Saves.Background = (Brush)new BrushConverter().ConvertFrom("#1A1A1A");
-            Saves.Foreground = (Brush)new BrushConverter().ConvertFrom("#F9F9F9");
-            Mods.Background = (Brush)new BrushConverter().ConvertFrom("#1A1A1A");
-            Mods.Foreground = (Brush)new BrushConverter().ConvertFrom("#F9F9F9");
-            Options.Background = (Brush)new BrushConverter().ConvertFrom("#1A1A1A");
-            Options.Foreground = (Brush)new BrushConverter().ConvertFrom("#F9F9F9");
-            
-            Tabs.Background = (Brush)new BrushConverter().ConvertFrom("#1A1A1A");
         }
 
         private void L1_Click(object sender, RoutedEventArgs e)
         {
             //launch kotor 1
+        }
+
+        private void Tabs_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Close();
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            Close();
         }
     }
 }
