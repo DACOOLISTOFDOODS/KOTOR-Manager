@@ -8,16 +8,28 @@
     <UseWPF>true</UseWPF>
 	  <PublishSingleFile>true</PublishSingleFile>
 	  <ApplicationIcon>Assets\logo.ico</ApplicationIcon>
+	  <FileVersion>1.0.0</FileVersion>
+	  <UseWindowsForms>true</UseWindowsForms>
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="Assets\logo.png" />
-	<Content Include="logo.ico" />
+    <COMReference Include="{215d64d2-031c-33c7-96e3-61794cd1ee61}">
+      <WrapperTool>tlbimp</WrapperTool>
+      <VersionMinor>4</VersionMinor>
+      <VersionMajor>2</VersionMajor>
+      <Guid>215d64d2-031c-33c7-96e3-61794cd1ee61</Guid>
+    </COMReference>
   </ItemGroup>
 
-  <ItemGroup>
+	<ItemGroup>
+    <Content Include="Assets\logo.ico" />
     <Resource Include="Assets\Diavlo_BOLD_II_37.otf" />
+    <Resource Include="Assets\open.WAV" />
+    <Resource Include="Assets\hover.WAV" />
+    <Resource Include="Assets\small.WAV" />
+    <Resource Include="Assets\big.WAV" />
     <Resource Include="Assets\tab.png" />
+	<Resource Include="Assets\logo.ico" />
   </ItemGroup>
 
 </Project>
